@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(76, 145, 55);
+}
+
+.TodoForm{
+    margin-top: 10px;
+}
+
+.Todowrap{
+    width: 35%;
+    height: auto;
+    background-color: rgb(3, 48, 3);
+    padding: 40px;
+    color: white;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+
+.Todowrap h1{
+    text-align: center;
+}
+.todo-input::placeholder{
+    color: #ffffff4d;
+    border-color: rgb(26, 26, 163);
+}
+
+.todo-input{
+    height: 35px;
+    width: 300px;
+    background-color: rgb(24, 24, 70);
+    border: 1px solid rgb(26, 26, 163);
+    color: white;
+    font-size: 16px;
+}
+
+.todo-btn {
+    background-color: rgb(26, 26, 163);
+    color: white;
+    height: 37px;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+}
+
+.Todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: '#8758ff';
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border: 1px solid green;
+    margin-top: 20px;
+    background-color: green;
+}
+
+
+.fa-trash {
+    color: #c5aeff;
+    text-decoration: line-through;
+}
